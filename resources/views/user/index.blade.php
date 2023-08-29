@@ -4,31 +4,34 @@
 	<title>Home</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+	<link rel="icon" type="image/png" href="{{ asset('assets/userstyle/images/icons/favicon.png') }}" />
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/bootstrap/css/bootstrap.min.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/fonts/themify/themify-icons.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/animate/animate.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/css-hamburgers/hamburgers.min.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/animsition/css/animsition.min.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/select2/select2.min.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/daterangepicker/daterangepicker.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/slick/slick.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/vendor/lightbox2/css/lightbox.min.css') }}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/css/util.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/userstyle/css/main.css') }}">
+	{{-- <link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"> --}}
 <!--===============================================================================================-->
 </head>
 <body class="animsition">
@@ -42,7 +45,7 @@
 					<!-- Logo -->
 					<div class="logo">
 						<a href="index.html">
-							<img src="images/icons/logo.png" alt="IMG-LOGO" data-logofixed="images/icons/logo2.png">
+							<img src="assets/userstyle/images/icons/logo.png" alt="IMG-LOGO" data-logofixed="assets/userstyle/images/icons/logo2.png">
 						</a>
 					</div>
 
@@ -51,7 +54,7 @@
 						<nav class="menu">
 							<ul class="main_menu">
 								<li>
-									<a href="index.html">Home</a>
+									<a href="">Home</a>
 								</li>
 
 								<li>
@@ -62,17 +65,17 @@
 									<a href="reservation.html">Reservation</a>
 								</li>
 
-								<li>
+								{{-- <li>
 									<a href="gallery.html">Gallery</a>
-								</li>
+								</li> --}}
 
 								<li>
 									<a href="about.html">About</a>
 								</li>
 
-								<li>
+								{{-- <li>
 									<a href="blog.html">Blog</a>
-								</li>
+								</li> --}}
 
 								<li>
 									<a href="contact.html">Contact</a>
@@ -142,40 +145,40 @@
 
 			<!-- Gallery -->
 			<div class="wrap-gallery-sidebar flex-w">
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyleimages/photo-gallery-thumb-01.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-02.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-03.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-05.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-06.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/assets/userstyle/images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-07.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-09.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-10.jpg" alt="GALLERY">
 				</a>
 
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
+				<a class="item-gallery-sidebar wrap-pic-w" href="assets/userstyle/images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
+					<img src="assets/userstyle/images/photo-gallery-thumb-11.jpg" alt="GALLERY">
 				</a>
 			</div>
 		</div>
@@ -185,7 +188,7 @@
 	<section class="section-slide">
 		<div class="wrap-slick1">
 			<div class="slick1">
-				<div class="item-slick1 item1-slick1" style="background-image: url(images/slide1-01.jpg);">
+				<div class="item-slick1 item1-slick1" style="background-image: url(assets/userstyle/images/slide1-01.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
 							Welcome to
@@ -204,7 +207,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick1 item2-slick1" style="background-image: url(images/master-slides-02.jpg);">
+				<div class="item-slick1 item2-slick1" style="background-image: url(assets/userstyle/images/master-slides-02.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rollIn">
 							Welcome to
@@ -223,7 +226,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick1 item3-slick1" style="background-image: url(images/master-slides-01.jpg);">
+				<div class="item-slick1 item3-slick1" style="background-image: url(assets/userstyle/images/master-slides-01.jpg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
 							Welcome to
@@ -275,7 +278,7 @@
 
 				<div class="col-md-6 p-b-30">
 					<div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/our-story-01.jpg" alt="IMG-OUR">
+						<img src="assets/userstyle/images/our-story-01.jpg" alt="IMG-OUR">
 					</div>
 				</div>
 			</div>
@@ -284,7 +287,7 @@
 
 	<!-- Intro -->
 	<section class="section-intro">
-		<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(images/bg-intro-01.jpg);">
+		<div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(assets/userstyle/images/bg-intro-01.jpg);">
 			<span class="tit2 p-l-15 p-r-15">
 				Discover
 			</span>
@@ -301,7 +304,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/intro-01.jpg" alt="IMG-INTRO"></a>
+								<a href="#"><img src="assets/userstyle/images/intro-01.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
@@ -325,7 +328,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/intro-02.jpg" alt="IMG-INTRO"></a>
+								<a href="#"><img src="assets/userstyle/images/intro-02.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
@@ -349,7 +352,7 @@
 						<!-- Block1 -->
 						<div class="blo1">
 							<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
-								<a href="#"><img src="images/intro-04.jpg" alt="IMG-INTRO"></a>
+								<a href="#"><img src="assets/userstyle/images/intro-04.jpg" alt="IMG-INTRO"></a>
 							</div>
 
 							<div class="wrap-text-blo1 p-t-35">
@@ -393,7 +396,7 @@
 						<div class="col-sm-6">
 							<!-- Item our menu -->
 							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/our-menu-01.jpg" alt="IMG-MENU">
+								<img src="assets/userstyle/images/our-menu-01.jpg" alt="IMG-MENU">
 
 								<!-- Button2 -->
 								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size4">
@@ -405,7 +408,7 @@
 						<div class="col-sm-6">
 							<!-- Item our menu -->
 							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/our-menu-05.jpg" alt="IMG-MENU">
+								<img src="assets/userstyle/images/our-menu-05.jpg" alt="IMG-MENU">
 
 								<!-- Button2 -->
 								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size5">
@@ -417,7 +420,7 @@
 						<div class="col-12">
 							<!-- Item our menu -->
 							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/our-menu-13.jpg" alt="IMG-MENU">
+								<img src="assets/userstyle/images/our-menu-13.jpg" alt="IMG-MENU">
 
 								<!-- Button2 -->
 								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size6">
@@ -433,7 +436,7 @@
 						<div class="col-12">
 							<!-- Item our menu -->
 							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/our-menu-08.jpg" alt="IMG-MENU">
+								<img src="assets/userstyle/images/our-menu-08.jpg" alt="IMG-MENU">
 
 								<!-- Button2 -->
 								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size7">
@@ -445,7 +448,7 @@
 						<div class="col-12">
 							<!-- Item our menu -->
 							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/our-menu-10.jpg" alt="IMG-MENU">
+								<img src="assets/userstyle/images/our-menu-10.jpg" alt="IMG-MENU">
 
 								<!-- Button2 -->
 								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size8">
@@ -457,7 +460,7 @@
 						<div class="col-12">
 							<!-- Item our menu -->
 							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/our-menu-16.jpg" alt="IMG-MENU">
+								<img src="assets/userstyle/images/our-menu-16.jpg" alt="IMG-MENU">
 
 								<!-- Button2 -->
 								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size9">
@@ -477,7 +480,7 @@
 	<section class="section-event">
 		<div class="wrap-slick2">
 			<div class="slick2">
-				<div class="item-slick2 item1-slick2" style="background-image: url(images/bg-event-01.jpg);">
+				<div class="item-slick2 item1-slick2" style="background-image: url(assets/userstyle/images/bg-event-01.jpg);">
 					<div class="wrap-content-slide2 p-t-115 p-b-208">
 						<div class="container">
 							<!-- - -->
@@ -494,7 +497,7 @@
 							<!-- Block2 -->
 							<div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="zoomIn">
 								<!-- Pic block2 -->
-								<a href="#" class="wrap-pic-blo2 bg1-blo2" style="background-image: url(images/event-02.jpg);">
+								<a href="#" class="wrap-pic-blo2 bg1-blo2" style="background-image: url(assets/userstyle/images/event-02.jpg);">
 									<div class="time-event size10 txt6 effect1">
 										<span class="txt-effect1 flex-c-m t-center">
 											08:00 PM Tuesday - 21 November 2018
@@ -564,7 +567,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick2 item2-slick2" style="background-image: url(images/bg-event-02.jpg);">
+				<div class="item-slick2 item2-slick2" style="background-image: url(assets/userstyle/images/bg-event-02.jpg);">
 					<div class="wrap-content-slide2 p-t-115 p-b-208">
 						<div class="container">
 							<!-- - -->
@@ -581,7 +584,7 @@
 							<!-- Block2 -->
 							<div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="fadeInDown">
 								<!-- Pic block2 -->
-								<a href="#" class="wrap-pic-blo2 bg2-blo2" style="background-image: url(images/event-06.jpg);">
+								<a href="#" class="wrap-pic-blo2 bg2-blo2" style="background-image: url(assets/userstyle/images/event-06.jpg);">
 									<div class="time-event size10 txt6 effect1">
 										<span class="txt-effect1 flex-c-m">
 											08:00 PM Tuesday - 21 November 2018
@@ -651,7 +654,7 @@
 					</div>
 				</div>
 
-				<div class="item-slick2 item3-slick2" style="background-image: url(images/bg-event-04.jpg);">
+				<div class="item-slick2 item3-slick2" style="background-image: url(assets/userstyle/images/bg-event-04.jpg);">
 					<div class="wrap-content-slide2 p-t-115 p-b-208">
 						<div class="container">
 							<!-- - -->
@@ -668,7 +671,7 @@
 							<!-- Block2 -->
 							<div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="rotateInUpLeft">
 								<!-- Pic block2 -->
-								<a href="#" class="wrap-pic-blo2 bg3-blo2" style="background-image: url(images/event-01.jpg);">
+								<a href="#" class="wrap-pic-blo2 bg3-blo2" style="background-image: url(assets/userstyle/images/event-01.jpg);">
 									<div class="time-event size10 txt6 effect1">
 										<span class="txt-effect1 flex-c-m">
 											08:00 PM Tuesday - 21 November 2018
@@ -867,7 +870,7 @@
 
 				<div class="col-lg-6 p-b-30 p-t-18">
 					<div class="wrap-pic-booking size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/booking-01.jpg" alt="IMG-OUR">
+						<img src="assets/userstyle/images/booking-01.jpg" alt="IMG-OUR">
 					</div>
 				</div>
 			</div>
@@ -894,7 +897,7 @@
 					<div class="wrap-content-slide3 p-b-50 p-t-50">
 						<div class="container">
 							<div class="pic-review size14 bo4 wrap-cir-pic m-l-r-auto animated visible-false" data-appear="zoomIn">
-								<img src="images/avatar-01.jpg" alt="IGM-AVATAR">
+								<img src="assets/userstyle/images/avatar-01.jpg" alt="IGM-AVATAR">
 							</div>
 
 							<div class="content-review m-t-33 animated visible-false" data-appear="fadeInUp">
@@ -922,7 +925,7 @@
 					<div class="wrap-content-slide3 p-b-50 p-t-50">
 						<div class="container">
 							<div class="pic-review size14 bo4 wrap-cir-pic m-l-r-auto animated visible-false" data-appear="zoomIn">
-								<img src="images/avatar-04.jpg" alt="IGM-AVATAR">
+								<img src="assets/userstyle/images/avatar-04.jpg" alt="IGM-AVATAR">
 							</div>
 
 							<div class="content-review m-t-33 animated visible-false" data-appear="fadeInUp">
@@ -950,7 +953,7 @@
 					<div class="wrap-content-slide3 p-b-50 p-t-50">
 						<div class="container">
 							<div class="pic-review size14 bo4 wrap-cir-pic m-l-r-auto animated visible-false" data-appear="zoomIn">
-								<img src="images/avatar-05.jpg" alt="IGM-AVATAR">
+								<img src="assets/userstyle/images/avatar-05.jpg" alt="IGM-AVATAR">
 							</div>
 
 							<div class="content-review m-t-33 animated visible-false" data-appear="fadeInUp">
@@ -982,7 +985,7 @@
 
 
 	<!-- Video -->
-	<section class="section-video parallax100" style="background-image: url(images/bg-cover-video-02.jpg);">
+	<section class="section-video parallax100" style="background-image: url(assets/userstyle/images/bg-cover-video-02.jpg);">
 		<div class="content-video t-center p-t-225 p-b-250">
 			<span class="tit2 p-l-15 p-r-15">
 				Discover
@@ -1019,7 +1022,7 @@
 					<!-- Block1 -->
 					<div class="blo1">
 						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
-							<a href="blog-detail.html"><img src="images/blog-01.jpg" alt="IMG-INTRO"></a>
+							<a href="blog-detail.html"><img src="assets/userstyle/images/blog-01.jpg" alt="IMG-INTRO"></a>
 
 							<div class="time-blog">
 								21 Dec 2017
@@ -1047,7 +1050,7 @@
 					<!-- Block1 -->
 					<div class="blo1">
 						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
-							<a href="blog-detail.html"><img src="images/blog-02.jpg" alt="IMG-INTRO"></a>
+							<a href="blog-detail.html"><img src="assets/userstyle/images/blog-02.jpg" alt="IMG-INTRO"></a>
 
 							<div class="time-blog">
 								15 Dec 2017
@@ -1075,7 +1078,7 @@
 					<!-- Block1 -->
 					<div class="blo1">
 						<div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
-							<a href="blog-detail.html"><img src="images/blog-03.jpg" alt="IMG-INTRO"></a>
+							<a href="blog-detail.html"><img src="assets/userstyle/images/blog-03.jpg" alt="IMG-INTRO"></a>
 
 							<div class="time-blog">
 								12 Dec 2017
@@ -1222,52 +1225,52 @@
 
 					<!-- Gallery footer -->
 					<div class="wrap-gallery-footer flex-w">
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-01.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-02.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-03.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-04.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-04.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-04.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-04.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-05.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-06.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-07.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-08.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-08.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-08.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-08.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-09.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-10.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-11.jpg" alt="GALLERY">
 						</a>
 
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-12.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-12.jpg" alt="GALLERY">
+						<a class="item-gallery-footer wrap-pic-w" href="assets/userstyle/images/photo-gallery-12.jpg" data-lightbox="gallery-footer">
+							<img src="assets/userstyle/images/photo-gallery-thumb-12.jpg" alt="GALLERY">
 						</a>
 					</div>
 
@@ -1310,7 +1313,7 @@
 			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
 
 			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
+				<div class="w-full wrap-pic-w op-0-0"><img src="assets/userstyle/images/icons/video-16-9.jpg" alt="IMG"></div>
 				<div class="video-mo-01">
 					<iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 				</div>
@@ -1321,31 +1324,31 @@
 
 
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/jquery/jquery-3.2.1.min.js') }}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/animsition/js/animsition.min.js') }}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
-	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/bootstrap/js/popper.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/select2/select2.min.js') }}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
-	<script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/daterangepicker/moment.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/daterangepicker/daterangepicker.js') }}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
-	<script type="text/javascript" src="js/slick-custom.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/slick/slick.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/js/slick-custom.js') }}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/parallax100/parallax100.js') }}"></script>
 	<script type="text/javascript">
         $('.parallax100').parallax100();
 	</script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/countdowntime/countdowntime.js') }}"></script>
 <!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
+	<script type="text/javascript" src="{{ asset('assets/userstyle/vendor/lightbox2/js/lightbox.min.js') }}"></script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
+	<script src="{{ asset('assets/userstyle/js/main.js') }}"></script>
 
 </body>
 </html>
