@@ -17,21 +17,5 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('user.index');
+    return view('admin.layoutadmin');
 });
-Route::get('/index.html', function () {
-    return view('user.index');
-});
-Route::get('/menu.html', function () {
-    return view('user.menu');
-});
-Route::get('/reservation.html', function () {
-    return view('user.reservation');
-});
-Route::get('/about.html', function () {
-    return view('user.about');
-});
-Route::get('/contact.html', function () {
-    return view('user.contact');
-});
-
