@@ -111,8 +111,7 @@
                         <button
                             class="btn btn-secondary"
                             type="button"
-                            data-dismiss="modal"
-                        >
+                            data-dismiss="modal">
                             Cancel
                         </button>
                         <a class="btn btn-primary" href="login.html">Logout</a>
