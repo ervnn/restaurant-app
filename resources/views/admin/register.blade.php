@@ -95,7 +95,7 @@
     <script src="{{asset ('assets/adminstyle/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="{{asset ('assets/adminstyle/js/sb-admin-2.min.js') }}"></script>adminstyle/
+    <script src="{{asset ('assets/adminstyle/js/sb-admin-2.min.js') }}"></script>
 
 </body>
 
