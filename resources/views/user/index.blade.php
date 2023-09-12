@@ -80,6 +80,9 @@
 								<li>
 									<a href="contact.html">Contact</a>
 								</li>
+								<li>
+									<a href="admin.login">login</a>
+								</li>
 							</ul>
 						</nav>
 					</div>
