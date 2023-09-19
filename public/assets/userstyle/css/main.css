@@ -1018,6 +1018,16 @@ input[type="date" i] {
     color: white;
 }
 
+.btn4 {
+    background: #423f3d;
+    border-radius: 10px;
+}
+
+.btn4:hover {
+    background-color: #ec1d25;
+    color: white;
+}
+
 /*[ Button2 ]
 ///////////////////////////////////////////////////////////
 */

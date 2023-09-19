@@ -80,8 +80,11 @@
 								<li>
 									<a href="contact.html">Contact</a>
 								</li>
-								<li>
-									<a href="admin.login">login</a>
+								
+							</ul>
+							<ul>
+							<li class="t-center">
+									<a href="login" class="btn4 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">login</a>
 								</li>
 							</ul>
 						</nav>
