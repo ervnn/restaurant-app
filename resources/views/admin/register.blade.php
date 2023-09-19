@@ -68,9 +68,9 @@
                                 <a href="index.html" class="btn btn-google btn-user btn-block">
                                     <i class="fab fa-google fa-fw"></i> Register with Google
                                 </a>
-                                <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                                {{-- <a href="index.html" class="btn btn-facebook btn-user btn-block">
                                     <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                                </a>
+                                </a> --}}
                             </form>
                             <hr>
                             <div class="text-center">
@@ -95,7 +95,7 @@
     <script src="{{asset ('assets/adminstyle/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="{{asset ('assets/adminstyle/js/sb-admin-2.min.js') }}"></script>adminstyle/
+    <script src="{{asset ('assets/adminstyle/js/sb-admin-2.min.js') }}"></script>
 
 </body>
 
