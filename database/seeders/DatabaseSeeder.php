@@ -18,18 +18,6 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-
-        Role::create([
-            'role_name' => 'admin',
-        ]);
-
-        Role::create([
-            'role_name' => 'resepsionis',
-        ]);
-
-        Role::create([
-            'role_name' => 'user',
-        ]);
         
         User::factory(5)->create();
 
